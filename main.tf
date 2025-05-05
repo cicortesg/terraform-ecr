@@ -1,5 +1,5 @@
 resource "aws_ecr_repository" "repo" {
-  name = "ecr-private-repo"
+  name = "ecs_test-private-repo"
 }
 
 output "repository_url" {
